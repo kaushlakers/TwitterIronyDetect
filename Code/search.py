@@ -11,10 +11,6 @@ class Search:
     def __init__(self, auth):
         self.auth = auth
         self.results = []
-    #def calculate_PMI(self):
-    #    for tweet in self.results:
-
-
 
     def query_and_save(self, query):
         api = tweepy.API(self.auth)
